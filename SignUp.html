@@ -9,28 +9,30 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-<div class="container w-75">
+    <div class="container w-75">
         <div class="row">
             <div class="col-12">
-    <div class="login-form d-flex justify-content-center align-items-center overflow-auto mt-5">
-        <div class="inner-login w-100 p-4 mx-auto">
-        <h2 class="text-center">Smart Login System</h2>
-        <input oninput="validateInputs(this)" id="inputName" type="text" placeholder="Enter Your Name" class="form-control mt-3 text-white">
-        <div class="alert bg-danger p-3 mt-3 d-none"><p>Name must be at least 3 characters and max-length is 20 characters</p></div>
-        <input oninput="validateInputs(this)" id="inputEmail" type="email" placeholder="Enter Your Email" class="form-control mt-3 text-white">
-        <div class="alert bg-danger p-3 mt-3 d-none"><p>Email must start by name or name and number then @ example.com</p></div>
-        <input oninput="validateInputs(this)" id="inputPassword" type="password" placeholder="Enter Your Password" class="form-control mt-3 text-white">
-        <div class="alert bg-danger p-3 mt-3 d-none"><p>Password must be contain at least one character, one number and at least one special character </p></div>
-        <div id="error">
+                <div class="login-form d-flex justify-content-center align-items-center overflow-auto mt-5">
+                    <div class="inner-login w-100 p-4 mx-auto">
+                    <h2 class="text-center">Smart Login System</h2>
+                    <input oninput="validateInputs(this)" id="inputName" type="text" placeholder="Enter Your Name" class="form-control mt-3 text-white">
+                    <div class="alert bg-danger p-3 mt-3 d-none"><p>Name must be at least 3 characters and max-length is 20 characters</p></div>
+                    <input oninput="validateInputs(this)" id="inputEmail" type="email" placeholder="Enter Your Email" class="form-control mt-3 text-white">
+                    <div class="alert bg-danger p-3 mt-3 d-none"><p>Email must start by name or name and number then @ example.com</p></div>
+                    <input oninput="validateInputs(this)" id="inputPassword" type="password" placeholder="Enter Your Password" class="form-control mt-3 text-white">
+                    <div class="alert bg-danger p-3 mt-3 d-none"><p>Password must be contain at least one character, one number and at least one special character </p></div>
+                    <div id="error">
+                </div>
+                    <button onclick="signUp()" class="btn form-control mt-3">Sign Up</button>
+                    <p class="text-center text-white mt-2">Already have an account? <a href="index.html" class="text-white">Login</a></p>
+                </div>
+                </div>
+            
+            </div>
+            
+        </div>
     </div>
-        <button onclick="signUp()" class="btn form-control mt-3">Sign Up</button>
-        <p class="text-center text-white mt-2">Already have an account? <a href="index.html" class="text-white">Login</a></p>
-    </div>
-    </div>
-    </div>
-    </div>
-    </div>
-
+    
     <script src="js/bootstrap.bundle.min.js"></script>
     <script src="js/welcome.js"></script>
     <script src="js/signUp.js"></script>
