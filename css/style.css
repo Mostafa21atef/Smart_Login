@@ -1,0 +1,66 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+body{
+    background-color: #24353F;
+}
+.login-form{
+    background-color: #24353F;
+    
+}
+.login-form h2{
+    color: #17A2B8;
+}
+.inner-login{
+    box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+}
+.inner-login input{
+    background-color: transparent;
+    
+}
+.inner-login input::placeholder {
+    color: white;
+  }
+  .inner-login input:focus {
+    background-color: transparent; 
+   }
+   .btn{
+    border: solid #17A2B8;
+    color: #17A2B8;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -o-transition: all 0.5s;
+}
+   .btn:hover{
+    background-color: #17A2B8;
+    color: white;
+   }
+   .inner-login a{
+    text-decoration: none;
+}
+   .inner-login a:hover{
+    text-decoration: underline;
+   }
+   .navbar{
+    background-color: #24353F;
+    display: flex;
+    justify-content: space-between;
+    box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+    overflow: auto;
+   }
+   .welcome-container{
+    position: absolute;
+    width: 30%;
+   top: 50%;
+   left: 35%;
+    box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+    background-color: #24353F;
+    color: aqua;
+    margin: auto;
+}
