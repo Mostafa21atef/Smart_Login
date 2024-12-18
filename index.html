@@ -9,8 +9,11 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+<div class="container w-75">
+        <div class="row">
+            <div class="col-12">
     <div class="login-form d-flex justify-content-center align-items-center overflow-auto mt-5">
-        <div class="inner-login w-50 p-4 mx-auto">
+        <div class="inner-login w-100 p-4 mx-auto">
             <h2 class="text-center">Smart Login System</h2>
             <input oninput="validateInputs(this)" id="emailLogin" type="email" placeholder="Enter Your Email" class="form-control mt-3 text-white">
             <div class="alert bg-danger p-3 mt-3 d-none"><p>Email must start with a valid name or characters and follow the standard email format.</p></div>
@@ -22,6 +25,9 @@
             <div id="error"></div>
             <p class="text-center text-white">Don’t have an account? <a href="SignUp.html" class="text-white">Sign Up</a></p>
         </div>
+    </div>
+    </div>
+    </div>
     </div>
     <script src="js/bootstrap.bundle.min.js"></script>
     <script src="js/welcome.js"></script>
